@@ -49,6 +49,10 @@ static const PinMap PinMap_PWM[] = {
     {P0_23,  PWM_1, 1},
     {P0_24,  PWM_1, 1},
     {P0_25,  PWM_1, 1},
+#ifdef TARGET_NRF51_CALLIOPE
+    {P0_26,  PWM_1, 1},
+    {P0_27,  PWM_1, 1},
+#endif
     {P0_28,  PWM_1, 1},
     {P0_29,  PWM_1, 1},
     {P0_30,  PWM_1, 1},
